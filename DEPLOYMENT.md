@@ -14,12 +14,15 @@
 3. Import from GitHub: `sidetoolco/thoven-2`
 
 ### 2. Environment Variables
-Add these environment variables in Vercel:
+In Vercel Project Settings → Environment Variables, add:
 
-```
-NEXT_PUBLIC_SUPABASE_URL=https://luzoarwishzfdqonsnhl.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx1em9hcndpc2h6ZmRxb25zbmhsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxODc0NDEsImV4cCI6MjA3Mjc2MzQ0MX0.Zo-FlPmH6UOdXNTjRcP7GXu-6UQ96E2aWZKYGv8aLhE
-```
+**Variable Name:** `NEXT_PUBLIC_SUPABASE_URL`  
+**Value:** `https://luzoarwishzfdqonsnhl.supabase.co`
+
+**Variable Name:** `NEXT_PUBLIC_SUPABASE_ANON_KEY`  
+**Value:** `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx1em9hcndpc2h6ZmRxb25zbmhsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxODc0NDEsImV4cCI6MjA3Mjc2MzQ0MX0.Zo-FlPmH6UOdXNTjRcP7GXu-6UQ96E2aWZKYGv8aLhE`
+
+Make sure to set these for all environments (Production, Preview, Development).
 
 ### 3. Deploy Settings
 - **Framework Preset**: Next.js
