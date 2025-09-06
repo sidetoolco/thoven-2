@@ -38,7 +38,12 @@ export default function SignupPage() {
 
       if (error) throw error
 
-      setMessage('Check your email for the confirmation link!')
+      setMessage('Account created successfully! Redirecting to dashboard...')
+      
+      // Redirect to dashboard after successful signup
+      setTimeout(() => {
+        window.location.href = '/dashboard'
+      }, 2000)
     } catch (error) {
       setError(error instanceof Error ? error.message : 'An error occurred')
     } finally {

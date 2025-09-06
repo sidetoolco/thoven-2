@@ -53,6 +53,12 @@ Ensure these tables exist in Supabase:
 - [ ] `reviews`
 - [ ] `messages`
 
+## Supabase Configuration
+Make sure these settings are configured in your Supabase project:
+- [ ] **Email confirmation disabled** (Auth → Settings → User Signups)
+- [ ] **Auto-confirm users** enabled for easier testing
+- [ ] Row Level Security policies are active
+
 ## Add Sample Data (Optional)
 Once deployed, you can add sample teacher profiles through the signup process or directly in Supabase to test the platform.
 
